@@ -16,7 +16,7 @@ Console.WriteLine(CalculateAverage(new int[] { 1, 2, 3, 4, 5 }));
 Console.WriteLine(CalculateAverage(new int[] { 6,8,9 }));
 Console.WriteLine(CalculateAverage(new int[] { 11,11,23}));
 
-int CalculateMac(int[] values)
+int CalculateMax(int[] values)
 {
     int max = values[0];
 
@@ -30,3 +30,7 @@ int CalculateMac(int[] values)
     
     return max;
 }
+
+Console.WriteLine(CalculateMax(new int[] {1,23,4,5,6}));
+Console.WriteLine(CalculateMax(new int[] {23,45,52,66}));
+Console.WriteLine(CalculateMax(new int[] {4,6,8,12}));
