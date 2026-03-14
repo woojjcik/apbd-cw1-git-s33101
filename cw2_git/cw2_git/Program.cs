@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Hello, World!");
-Console.WriteLine("Helloooo, Wooooorld!");
+Console.WriteLine("Hellooo, Woooorld!");
 
 double CalculateAverage(int[] values)
 {
