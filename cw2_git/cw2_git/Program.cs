@@ -49,3 +49,7 @@ int CalculateMin(int[] values)
     }
     return min;
 }
+
+Console.WriteLine(CalculateMin(new int[] {1,23,4,5,6}));
+Console.WriteLine(CalculateMin(new int[] {5,7,2,5,6}));
+Console.WriteLine(CalculateMin(new int[] {1,0,12,5}));
