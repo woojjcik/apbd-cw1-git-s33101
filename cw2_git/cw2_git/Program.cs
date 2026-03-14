@@ -35,3 +35,17 @@ int CalculateMax(int[] values)
 Console.WriteLine(CalculateMax(new int[] {1,23,4,5,6}));
 Console.WriteLine(CalculateMax(new int[] {23,45,52,66}));
 Console.WriteLine(CalculateMax(new int[] {4,6,8,12}));
+
+int CalculateMin(int[] values)
+{
+    int min = values[0];
+
+    foreach (int el in values)
+    {
+        if (el < min)
+        { 
+            min = el;
+        }
+    }
+    return min;
+}
