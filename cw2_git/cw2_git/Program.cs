@@ -3,14 +3,14 @@ Console.WriteLine("Hellooo, Woooorld!");
 
 double CalculateAverage(int[] values)
 {
-    int sum = 0;
+    int summ = 0;
 
     foreach (int el in values)
     {
-        sum += el;
+        summ  += el;
     }
     
-    return sum / values.Length;
+    return summ / values.Length;
 }
 
 Console.WriteLine(CalculateAverage(new int[] { 1, 2, 3, 4, 5 }));
